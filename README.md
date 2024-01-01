@@ -6,3 +6,5 @@ The CSS code includes styling for various elements to create a modern and user-f
 Key design elements include a Sluralsight logo, input fields for email/username and password, styled buttons for signing in and creating an account, as well as additional links and information in the footer. The right side of the page features a showcase section with a background image and a compelling text encouraging users to start a free trial.
 
 Overall, the project aims to provide a visually appealing and user-friendly login page for Sluralsight, with a responsive design catering to different device sizes.
+
+![Sluralsight-Login-Page](/master/Screen%20shots%20for%20the%20results.png)
