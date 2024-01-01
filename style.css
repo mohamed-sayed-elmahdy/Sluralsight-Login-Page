@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background: #181818;
+  color: white;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+#sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+.logo {
+  margin-bottom: 8vh;
+}
+.logo img {
+  width: 300px;
+}
+#sign-in form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+#sign-in form label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#sign-in .text-input {
+  width: 100%;
+  background: #181818;
+  line-height: 1.5rem;
+  color: white;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1.1rem;
+  border-radius: 2px;
+}
+#sign-in .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+#sign-in .links a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #f4f4f4;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+#sign-in .or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+#sign-in .or hr {
+  flex: 1;
+}
+#sign-in .primary-btn {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  background: #f96816;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+}
+#sign-in .primary-btn:hover {
+  background: #ff7b39;
+}
+.secondary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  background: none;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  margin-top: 1rem;
+  margin-bottom :2rem;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+}
+
+.secondary-btn:hover {
+  border-color: #ff7b39;
+  color: #ff7b39;
+}
+#main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  flex-direction: column;
+  max-width: 80%;
+}
+#main-footer p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 300;
+}
+#main-footer div a {
+  color: #f96816;
+  font-weight: 500;
+  margin:  0 0.2rem;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+#right {
+  flex: 1;
+}
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
+  height: 100vh;
+  text-align: center;
+}
+#showcase .showcase-text {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
+/* Media Queries */
+@media (min-width: 1200px) {
+  #left {
+    flex: 4;
+  }
+
+  #right {
+    flex: 6;
+  }
+}
+
+@media (max-width: 768px) {
+
+  body {
+    overflow: auto;
+  }
+
+  #right {
+    display: none;
+  }
+  #left {
+    justify-content: start;
+    margin-top: 4vh;
+  }
+  #sign-in .logo {
+    margin-bottom: 2vh;
+  }
+  #sign-in form {
+    padding-bottom: 1rem;
+  }
+
+  #sign-in .text-input {
+    margin-bottom: 0.6rem;
+  }
+
+  #main-footer {
+    padding-top: 1rem;
+  }
+  .secondary-btn {
+    margin-bottom: 0rem;
+  }
+  #sign-in .primary-btn {
+    margin-bottom: 0.1;
+  }
+
+}
