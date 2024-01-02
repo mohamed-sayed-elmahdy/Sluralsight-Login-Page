@@ -7,4 +7,6 @@ Key design elements include a Sluralsight logo, input fields for email/username 
 
 Overall, the project aims to provide a visually appealing and user-friendly login page for Sluralsight, with a responsive design catering to different device sizes.
 
+Live Version : https://mohamed-sayed-elmahdy.github.io/Sluralsight-Login-Page/
+
 ![Sluralsight-Login-Page](Screen%20shots%20for%20the%20results.png)
