@@ -24,6 +24,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 #left {
   flex: 1;
@@ -32,8 +33,8 @@ h6 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 2rem;
-  margin-top: 1rem;
+  gap: 1.3rem;
+  margin-top: 0.7rem;
 }
 #sign-in {
   display: flex;
@@ -44,7 +45,7 @@ h6 {
   padding-bottom: 1rem;
 }
 .logo {
-  margin-bottom: 8vh;
+  margin-bottom: 3vh;
 }
 .logo img {
   width: 300px;
@@ -123,7 +124,7 @@ h6 {
   border: 1px solid #f4f4f4;
   border-radius: 2px;
   margin-top: 1rem;
-  margin-bottom :2rem;
+  margin-bottom: 2rem;
   text-decoration: none;
   display: block;
   transition: all 0.5s;
@@ -149,7 +150,7 @@ h6 {
 #main-footer div a {
   color: #f96816;
   font-weight: 500;
-  margin:  0 0.2rem;
+  margin: 0 0.2rem;
   font-size: 0.8rem;
   text-decoration: underline;
 }
@@ -160,7 +161,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg") no-repeat center
+    center / cover;
   height: 100vh;
   text-align: center;
 }
@@ -186,7 +188,6 @@ h6 {
 }
 
 @media (max-width: 768px) {
-
   body {
     overflow: auto;
   }
@@ -218,5 +219,4 @@ h6 {
   #sign-in .primary-btn {
     margin-bottom: 0.1;
   }
-
 }
